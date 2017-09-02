@@ -23,9 +23,10 @@ class MainFragment : ListFragment() {
 
     override fun onListItemClick(l: ListView?, v: View?, position: Int, id: Long) {
         super.onListItemClick(l, v, position, id)
-        when (position) {
-            0 -> FragmentUtils.toNextFragment(fragmentManager, R.id.container,
-                    ChannelFragment.newInstance(), true)
-        }
+        FragmentUtils.toNextFragment(fragmentManager, R.id.container, when(position) {
+            0 -> ChannelFragment.newInstance()
+            1 -> ShowNotificationFragment.newInstance()
+            else -> ChannelFragment.newInstance()
+        }, true)
     }
 }

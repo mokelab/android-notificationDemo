@@ -3,6 +3,8 @@
     <string name="name">Name</string>
     <string name="description">Description</string>
     <string name="channel_id">Channel ID</string>
+    <string name="title">Title</string>
+    <string name="show">Show</string>
 
     <string-array name="main_menu">
         <item>Channel</item>
