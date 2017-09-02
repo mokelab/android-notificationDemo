@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">NotificationDemo</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="channel_id">Channel ID</string>
+
+    <string-array name="main_menu">
+        <item>Channel</item>
+        <item>Show notification</item>
+    </string-array>
 </resources>
